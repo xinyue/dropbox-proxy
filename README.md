@@ -5,8 +5,7 @@ With Dropbox Proxy you can use your own domain to serve the files published in y
 * Before:
  URL'http://dl.dropboxusercontent.com/u/YOUR-DROPBOX-NUMBER/file-name.zip'.
 * After:
-   URL 'http://dl.YOUR-DOMAIN.com/file-name.zip'
-   URL 'your-app-id.appspot.com/file-name.zip'
+  URL 'http://dl.YOUR-DOMAIN.com/file-name.zip' or URL 'http://your-app-id.appspot.com/file-name.zip'
 
 # Instructions
 * Download this files. 
