@@ -1,0 +1,16 @@
+application:  YOUR-APP-ID
+version: 1
+module: default
+runtime: python27
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: /robots\.txt
+  static_files: static/robots.txt
+  upload: static/robots\.txt
+
+- url: /.*
+  script: mirror.app
+  secure: optional
