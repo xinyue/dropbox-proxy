@@ -1,10 +1,19 @@
 # Dropbox Proxy
 
-# Description
-Dropbox proxy to serve files over your own domain using Google App engine
+With Dropbox Proxy you can use your own domain to serve the files published in your [Dropbox](http://www.dropbox.com) public folder.
+Before:
+  URL'http://dl.dropboxusercontent.com/u/YOUR-DROPBOX-NUMBER/file-name.zip'.
+After:
+  URL 'http://dl.YOUR-DOMAIN.com/file-name.zip'
 
 # Instructions
-// Comming soon!
+* Download this files. 
+* Create a new GAE app.
+* Edit 'application: ' in app.yaml with your app ID.
+* Edit 'DROPBOX_USER' in mirror.py with your dropbox user ID.
+* Push changes to GAE using GAE SDK.
+* Optional: Go to GAE -> proyect -> Compute -> App Engine -> configuration and add your personal domain.
+(you can use your-app-id.appspot.com instead)
 
 # Credits
 This script is a reduction from a great proxy [mirrorrr](https://github.com/bslatkin/mirrorrr) created by [Brett Slatkin](http://www.onebigfluke.com). It is also based on [dropbprox](http://code.google.com/p/dropbprox) by [Paulo Jerônimo] (http://paulojeronimo.com) for an older version of python.
