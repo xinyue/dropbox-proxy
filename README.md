@@ -8,7 +8,7 @@ With Dropbox Proxy you can use your own domain to serve the files published in y
   URL 'http://dl.YOUR-DOMAIN.com/file-name.zip' or URL 'http://your-app-id.appspot.com/file-name.zip'
 
 # Instructions
-* Download this files. 
+* Download 
 * Create a new GAE app.
 * Edit 'application: ' in app.yaml with your app ID.
 * Edit 'DROPBOX_USER' in mirror.py with your dropbox user ID.
